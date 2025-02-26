@@ -1,6 +1,9 @@
 package com.example.landmarkbookjava;
 
-public class Lankmark {
+import java.io.Serializable;
+
+public class Lankmark implements Serializable {
+
 
     String name;
     String country;
